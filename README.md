@@ -7,7 +7,16 @@ The workflow accepts one image file via file action.
 
 
 
-# Required
+## Required
 
 1. Alfred 5
 2. Automation Task
+
+## Usage
+
+ImageShrinker can be used in two ways:
+
+1. by browsing a folder or file, select the image file and then send it via file action to ImageShrinker
+2. by using `Universal Actions`*: select a image file in Finder, enter `Universal Actions`  and send it to ImageShrinker
+
+\* Using `Unviersal Actions`: Open Alfred Preferences → Features → Universal Actions
