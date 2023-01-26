@@ -34,6 +34,33 @@
 				<false/>
 			</dict>
 		</array>
+		<key>123A56A7-57C7-46CF-AA37-742E08E483B7</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>285567E4-5F6E-49BE-BD82-A2F26130F844</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>_button1</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>36A94512-C96E-4FE0-91CF-FB93543CB554</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>_button1</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>1AA3EF44-CBEF-42AD-9061-29081050C4E1</key>
 		<array>
 			<dict>
@@ -47,11 +74,63 @@
 				<false/>
 			</dict>
 		</array>
+		<key>4AEF6CC5-7650-44C7-B5B4-1C78F8C452A9</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>285567E4-5F6E-49BE-BD82-A2F26130F844</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>2F91D951-0F64-4F68-AE64-AE8035DBD61B</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>36A94512-C96E-4FE0-91CF-FB93543CB554</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>2F91D951-0F64-4F68-AE64-AE8035DBD61B</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>123A56A7-57C7-46CF-AA37-742E08E483B7</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>B97BBF05-1136-4AC7-ABB1-796BF44870A2</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>60C982A7-83A4-4296-82FD-E9EA656728EA</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
 				<string>8E04C74A-AFA3-45A5-AB78-FBD21C7699C8</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>688370B3-92C8-4F3E-9E72-52AC2CA7E02F</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>72830C6E-65DD-4DDA-B6EE-D53F694677A0</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -77,7 +156,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>72830C6E-65DD-4DDA-B6EE-D53F694677A0</string>
+				<string>688370B3-92C8-4F3E-9E72-52AC2CA7E02F</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -90,7 +169,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>285567E4-5F6E-49BE-BD82-A2F26130F844</string>
+				<string>4AEF6CC5-7650-44C7-B5B4-1C78F8C452A9</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -100,7 +179,7 @@
 			</dict>
 			<dict>
 				<key>destinationuid</key>
-				<string>36A94512-C96E-4FE0-91CF-FB93543CB554</string>
+				<string>59585C54-DC87-4454-9D3F-7B24B45CF2A6</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -207,7 +286,7 @@
 			<key>config</key>
 			<dict>
 				<key>acceptsmulti</key>
-				<integer>0</integer>
+				<integer>1</integer>
 				<key>filetypes</key>
 				<array>
 					<string>com.compuserve.gif</string>
@@ -246,21 +325,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>openwith</key>
-				<string></string>
-				<key>sourcefile</key>
-				<string></string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openfile</string>
-			<key>uid</key>
-			<string>285567E4-5F6E-49BE-BD82-A2F26130F844</string>
-			<key>version</key>
-			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>argumenttrimmode</key>
 				<integer>0</integer>
 				<key>argumenttype</key>
@@ -284,59 +348,6 @@
 			<string>alfred.workflow.input.listfilter</string>
 			<key>uid</key>
 			<string>DA978B5F-BC27-45BD-BD27-1D8CE610A14B</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>tasksettings</key>
-				<dict/>
-				<key>taskuid</key>
-				<string>com.alfredapp.automation.core/image-manipulation/image.optimize.color.for-sharing</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.automation.task</string>
-			<key>uid</key>
-			<string>B8AFDAB2-81C2-4272-A19F-DEAE277D3F7A</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>tasksettings</key>
-				<dict>
-					<key>max_size</key>
-					<string>{var:size}</string>
-				</dict>
-				<key>taskuid</key>
-				<string>com.alfredapp.automation.core/image-manipulation/image.resize.longest-side</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.automation.task</string>
-			<key>uid</key>
-			<string>1AA3EF44-CBEF-42AD-9061-29081050C4E1</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>tasksettings</key>
-				<dict>
-					<key>overwrite</key>
-					<true/>
-					<key>save_in</key>
-					<string>{var:target_folder}</string>
-				</dict>
-				<key>taskuid</key>
-				<string>com.alfredapp.automation.core/image-manipulation/image.format.convert</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.automation.task</string>
-			<key>uid</key>
-			<string>72830C6E-65DD-4DDA-B6EE-D53F694677A0</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -415,6 +426,27 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>delimiter</key>
+				<string>	</string>
+				<key>discardemptyarguments</key>
+				<false/>
+				<key>outputas</key>
+				<integer>1</integer>
+				<key>trimarguments</key>
+				<true/>
+				<key>variableprefix</key>
+				<string>split</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.split</string>
+			<key>uid</key>
+			<string>688370B3-92C8-4F3E-9E72-52AC2CA7E02F</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>availableviaurlhandler</key>
 				<false/>
 				<key>triggerid</key>
@@ -424,6 +456,120 @@
 			<string>alfred.workflow.trigger.external</string>
 			<key>uid</key>
 			<string>B8C7AC3E-494B-4E67-87EE-F949A3A7D88A</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>openwith</key>
+				<string></string>
+				<key>sourcefile</key>
+				<string></string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openfile</string>
+			<key>uid</key>
+			<string>285567E4-5F6E-49BE-BD82-A2F26130F844</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>tasksettings</key>
+				<dict/>
+				<key>taskuid</key>
+				<string>com.alfredapp.automation.core/image-manipulation/image.optimize.color.for-sharing</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.automation.task</string>
+			<key>uid</key>
+			<string>B8AFDAB2-81C2-4272-A19F-DEAE277D3F7A</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>tasksettings</key>
+				<dict>
+					<key>max_size</key>
+					<string>{var:size}</string>
+				</dict>
+				<key>taskuid</key>
+				<string>com.alfredapp.automation.core/image-manipulation/image.resize.longest-side</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.automation.task</string>
+			<key>uid</key>
+			<string>1AA3EF44-CBEF-42AD-9061-29081050C4E1</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>tasksettings</key>
+				<dict>
+					<key>overwrite</key>
+					<true/>
+					<key>save_in</key>
+					<string>{var:target_folder}</string>
+				</dict>
+				<key>taskuid</key>
+				<string>com.alfredapp.automation.core/image-manipulation/image.format.convert</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.automation.task</string>
+			<key>uid</key>
+			<string>72830C6E-65DD-4DDA-B6EE-D53F694677A0</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:open_file}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>open</string>
+						<key>outputlabel</key>
+						<string>open img</string>
+						<key>uid</key>
+						<string>2F91D951-0F64-4F68-AE64-AE8035DBD61B</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:open_file}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>ask</string>
+						<key>outputlabel</key>
+						<string>ask</string>
+						<key>uid</key>
+						<string>B97BBF05-1136-4AC7-ABB1-796BF44870A2</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>nothing</string>
+				<key>hideelse</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>4AEF6CC5-7650-44C7-B5B4-1C78F8C452A9</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -440,18 +586,66 @@
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>button1</key>
+				<string>Yes</string>
+				<key>button2</key>
+				<string>No</string>
+				<key>button3</key>
+				<string></string>
+				<key>description</key>
+				<string>Open in Preview and Reveal image(s) file in Finder?</string>
+				<key>title</key>
+				<string>Show and reveal image File(s)?</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.dialog</string>
+			<key>uid</key>
+			<string>123A56A7-57C7-46CF-AA37-742E08E483B7</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>Shrinking image completed</string>
+				<key>title</key>
+				<string>Image Shrinker</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>59585C54-DC87-4454-9D3F-7B24B45CF2A6</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string># Image Shrinker
 
 Helps to reduce file size for sharing
 
-The workflow accepts one image file
+The workflow accepts one or multiple image files
 
 # Required
 
 1. Alfred 5
-2. Automation Task</string>
+2. Automation Task
+
+# Configuration
+
+Click on `Configure Workflow` to:
+* choose target path for converted images
+* choose what to do once conversion is complete</string>
 	<key>uidata</key>
 	<dict>
 		<key>0AC1D1A7-A662-49EE-9463-C64CD5B4CE4D</key>
@@ -468,26 +662,47 @@ The workflow accepts one image file
 			<key>ypos</key>
 			<real>210</real>
 		</dict>
+		<key>123A56A7-57C7-46CF-AA37-742E08E483B7</key>
+		<dict>
+			<key>xpos</key>
+			<real>1380</real>
+			<key>ypos</key>
+			<real>555</real>
+		</dict>
 		<key>1AA3EF44-CBEF-42AD-9061-29081050C4E1</key>
 		<dict>
 			<key>xpos</key>
-			<real>1100</real>
+			<real>840</real>
 			<key>ypos</key>
-			<real>195</real>
+			<real>460</real>
 		</dict>
 		<key>285567E4-5F6E-49BE-BD82-A2F26130F844</key>
 		<dict>
 			<key>xpos</key>
-			<real>1455</real>
+			<real>1590</real>
 			<key>ypos</key>
-			<real>130</real>
+			<real>390</real>
 		</dict>
 		<key>36A94512-C96E-4FE0-91CF-FB93543CB554</key>
 		<dict>
 			<key>xpos</key>
-			<real>1455</real>
+			<real>1590</real>
 			<key>ypos</key>
-			<real>255</real>
+			<real>515</real>
+		</dict>
+		<key>4AEF6CC5-7650-44C7-B5B4-1C78F8C452A9</key>
+		<dict>
+			<key>xpos</key>
+			<real>1250</real>
+			<key>ypos</key>
+			<real>480</real>
+		</dict>
+		<key>59585C54-DC87-4454-9D3F-7B24B45CF2A6</key>
+		<dict>
+			<key>xpos</key>
+			<real>1250</real>
+			<key>ypos</key>
+			<real>795</real>
 		</dict>
 		<key>60C982A7-83A4-4296-82FD-E9EA656728EA</key>
 		<dict>
@@ -496,12 +711,19 @@ The workflow accepts one image file
 			<key>ypos</key>
 			<real>95</real>
 		</dict>
+		<key>688370B3-92C8-4F3E-9E72-52AC2CA7E02F</key>
+		<dict>
+			<key>xpos</key>
+			<real>940</real>
+			<key>ypos</key>
+			<real>225</real>
+		</dict>
 		<key>72830C6E-65DD-4DDA-B6EE-D53F694677A0</key>
 		<dict>
 			<key>xpos</key>
-			<real>935</real>
+			<real>675</real>
 			<key>ypos</key>
-			<real>195</real>
+			<real>460</real>
 		</dict>
 		<key>8E04C74A-AFA3-45A5-AB78-FBD21C7699C8</key>
 		<dict>
@@ -513,9 +735,9 @@ The workflow accepts one image file
 		<key>B8AFDAB2-81C2-4272-A19F-DEAE277D3F7A</key>
 		<dict>
 			<key>xpos</key>
-			<real>1275</real>
+			<real>1015</real>
 			<key>ypos</key>
-			<real>195</real>
+			<real>460</real>
 		</dict>
 		<key>B8C7AC3E-494B-4E67-87EE-F949A3A7D88A</key>
 		<dict>
@@ -561,7 +783,7 @@ The workflow accepts one image file
 				<true/>
 			</dict>
 			<key>description</key>
-			<string>Folder for saving shrinked image</string>
+			<string>Folder for saving shrinked image(s)</string>
 			<key>label</key>
 			<string>Target Folder</string>
 			<key>type</key>
@@ -569,11 +791,41 @@ The workflow accepts one image file
 			<key>variable</key>
 			<string>target_folder</string>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>open</string>
+				<key>pairs</key>
+				<array>
+					<array>
+						<string>Open and Reveal</string>
+						<string>open</string>
+					</array>
+					<array>
+						<string>Ask</string>
+						<string>ask</string>
+					</array>
+					<array>
+						<string>Do nothing</string>
+						<string>no</string>
+					</array>
+				</array>
+			</dict>
+			<key>description</key>
+			<string>Open and reveal converted image(s) when shrinking is complete</string>
+			<key>label</key>
+			<string>Open and Reveal Image(s)</string>
+			<key>type</key>
+			<string>popupbutton</string>
+			<key>variable</key>
+			<string>open_file</string>
+		</dict>
 	</array>
 	<key>variablesdontexport</key>
 	<array/>
 	<key>version</key>
-	<string>1.1</string>
+	<string>1.3</string>
 	<key>webaddress</key>
 	<string>https://github.com/Acidham/alfred-image-shrinker</string>
 </dict>
