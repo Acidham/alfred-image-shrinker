@@ -330,6 +330,7 @@
 					<string>public.heic</string>
 					<string>public.jpeg</string>
 					<string>public.png</string>
+					<string>public.svg-image</string>
 					<string>public.tiff</string>
 				</array>
 				<key>name</key>
@@ -468,6 +469,26 @@ python3 ./filecheck.py $argv</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>argument</key>
+				<string>{var:fpath}</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>size</key>
+					<string>{query}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>8E04C74A-AFA3-45A5-AB78-FBD21C7699C8</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>delimiter</key>
 				<string>	</string>
 				<key>discardemptyarguments</key>
@@ -483,26 +504,6 @@ python3 ./filecheck.py $argv</string>
 			<string>alfred.workflow.utility.split</string>
 			<key>uid</key>
 			<string>688370B3-92C8-4F3E-9E72-52AC2CA7E02F</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argument</key>
-				<string>{var:fpath}</string>
-				<key>passthroughargument</key>
-				<false/>
-				<key>variables</key>
-				<dict>
-					<key>size</key>
-					<string>{query}</string>
-				</dict>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
-			<key>uid</key>
-			<string>8E04C74A-AFA3-45A5-AB78-FBD21C7699C8</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -930,7 +931,7 @@ Click on `Configure Workflow` to:
 	<key>variablesdontexport</key>
 	<array/>
 	<key>version</key>
-	<string>1.4</string>
+	<string>1.4.1</string>
 	<key>webaddress</key>
 	<string>https://github.com/Acidham/alfred-image-shrinker</string>
 </dict>
