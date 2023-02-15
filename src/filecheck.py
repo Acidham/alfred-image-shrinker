@@ -6,12 +6,12 @@ from pathlib import Path
 WHITELIST_EXT = [
     'png',
     'jpeg',
-    'jpg'
+    'jpg',
     'gif',
     'tiff',
     'bmp',
     'psd',
-    'heic'
+    'heic',
 ]
 
 image_files = []

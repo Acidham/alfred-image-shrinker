@@ -115,6 +115,18 @@
 			</dict>
 			<dict>
 				<key>destinationuid</key>
+				<string>123A56A7-57C7-46CF-AA37-742E08E483B7</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>B97BBF05-1136-4AC7-ABB1-796BF44870A2</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
 				<string>36A94512-C96E-4FE0-91CF-FB93543CB554</string>
 				<key>modifiers</key>
 				<integer>0</integer>
@@ -134,18 +146,6 @@
 				<string></string>
 				<key>sourceoutputuid</key>
 				<string>18FA5E83-579C-4F14-B19D-835B3B793114</string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>123A56A7-57C7-46CF-AA37-742E08E483B7</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>sourceoutputuid</key>
-				<string>B97BBF05-1136-4AC7-ABB1-796BF44870A2</string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -614,6 +614,27 @@ python3 ./filecheck.py $argv</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>button1</key>
+				<string>Open</string>
+				<key>button2</key>
+				<string>Reveal</string>
+				<key>button3</key>
+				<string>OK</string>
+				<key>description</key>
+				<string>Open in Preview and/or Reveal image(s) file in Finder?</string>
+				<key>title</key>
+				<string>Show and/or reveal image File(s)?</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.dialog</string>
+			<key>uid</key>
+			<string>123A56A7-57C7-46CF-AA37-742E08E483B7</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>tasksettings</key>
 				<dict/>
 				<key>taskuid</key>
@@ -680,27 +701,6 @@ python3 ./filecheck.py $argv</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>button1</key>
-				<string>Open</string>
-				<key>button2</key>
-				<string>Reveal</string>
-				<key>button3</key>
-				<string>OK</string>
-				<key>description</key>
-				<string>Open in Preview and/or Reveal image(s) file in Finder?</string>
-				<key>title</key>
-				<string>Show and/or reveal image File(s)?</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.dialog</string>
-			<key>uid</key>
-			<string>123A56A7-57C7-46CF-AA37-742E08E483B7</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>lastpathcomponent</key>
 				<false/>
 				<key>onlyshowifquerypopulated</key>
@@ -751,14 +751,14 @@ Click on `Configure Workflow` to:
 			<key>xpos</key>
 			<real>445</real>
 			<key>ypos</key>
-			<real>210</real>
+			<real>205</real>
 		</dict>
 		<key>123A56A7-57C7-46CF-AA37-742E08E483B7</key>
 		<dict>
 			<key>xpos</key>
-			<real>870</real>
+			<real>1115</real>
 			<key>ypos</key>
-			<real>615</real>
+			<real>540</real>
 		</dict>
 		<key>1AA3EF44-CBEF-42AD-9061-29081050C4E1</key>
 		<dict>
@@ -777,14 +777,14 @@ Click on `Configure Workflow` to:
 		<key>285567E4-5F6E-49BE-BD82-A2F26130F844</key>
 		<dict>
 			<key>xpos</key>
-			<real>1180</real>
+			<real>1235</real>
 			<key>ypos</key>
-			<real>470</real>
+			<real>460</real>
 		</dict>
 		<key>36A94512-C96E-4FE0-91CF-FB93543CB554</key>
 		<dict>
 			<key>xpos</key>
-			<real>1180</real>
+			<real>1230</real>
 			<key>ypos</key>
 			<real>610</real>
 		</dict>
@@ -800,7 +800,7 @@ Click on `Configure Workflow` to:
 			<key>xpos</key>
 			<real>600</real>
 			<key>ypos</key>
-			<real>755</real>
+			<real>715</real>
 		</dict>
 		<key>60C982A7-83A4-4296-82FD-E9EA656728EA</key>
 		<dict>
@@ -931,7 +931,7 @@ Click on `Configure Workflow` to:
 	<key>variablesdontexport</key>
 	<array/>
 	<key>version</key>
-	<string>1.4.1</string>
+	<string>1.4.2</string>
 	<key>webaddress</key>
 	<string>https://github.com/Acidham/alfred-image-shrinker</string>
 </dict>
