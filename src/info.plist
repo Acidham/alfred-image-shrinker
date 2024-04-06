@@ -334,7 +334,7 @@
 					<string>public.tiff</string>
 				</array>
 				<key>name</key>
-				<string>Image Shrinker</string>
+				<string>Reduce image size</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.trigger.action</string>
@@ -469,26 +469,6 @@ python3 ./filecheck.py $argv</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argument</key>
-				<string>{var:fpath}</string>
-				<key>passthroughargument</key>
-				<false/>
-				<key>variables</key>
-				<dict>
-					<key>size</key>
-					<string>{query}</string>
-				</dict>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
-			<key>uid</key>
-			<string>8E04C74A-AFA3-45A5-AB78-FBD21C7699C8</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>delimiter</key>
 				<string>	</string>
 				<key>discardemptyarguments</key>
@@ -504,6 +484,26 @@ python3 ./filecheck.py $argv</string>
 			<string>alfred.workflow.utility.split</string>
 			<key>uid</key>
 			<string>688370B3-92C8-4F3E-9E72-52AC2CA7E02F</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{var:fpath}</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>size</key>
+					<string>{query}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>8E04C74A-AFA3-45A5-AB78-FBD21C7699C8</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -719,6 +719,23 @@ python3 ./filecheck.py $argv</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>'{query}', {variables}</string>
+				<key>cleardebuggertext</key>
+				<false/>
+				<key>processoutputs</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.debug</string>
+			<key>uid</key>
+			<string>6FAEE0B2-6C59-4587-8CBB-383A01428D73</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string># Image Shrinker
@@ -736,6 +753,7 @@ The workflow accepts one or multiple image files
 
 Click on `Configure Workflow` to:
 * choose target path for converted images
+* add suffix if you want to create copy of the file with suffix text
 * choose what to do once conversion is complete</string>
 	<key>uidata</key>
 	<dict>
@@ -798,7 +816,7 @@ Click on `Configure Workflow` to:
 		<key>59585C54-DC87-4454-9D3F-7B24B45CF2A6</key>
 		<dict>
 			<key>xpos</key>
-			<real>600</real>
+			<real>635</real>
 			<key>ypos</key>
 			<real>715</real>
 		</dict>
@@ -815,6 +833,13 @@ Click on `Configure Workflow` to:
 			<real>1175</real>
 			<key>ypos</key>
 			<real>220</real>
+		</dict>
+		<key>6FAEE0B2-6C59-4587-8CBB-383A01428D73</key>
+		<dict>
+			<key>xpos</key>
+			<real>370</real>
+			<key>ypos</key>
+			<real>805</real>
 		</dict>
 		<key>72830C6E-65DD-4DDA-B6EE-D53F694677A0</key>
 		<dict>
@@ -927,11 +952,32 @@ Click on `Configure Workflow` to:
 			<key>variable</key>
 			<string>open_file</string>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string></string>
+				<key>placeholder</key>
+				<string></string>
+				<key>required</key>
+				<false/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>Creates a copy of the image file with SUFFIX. If left empty the original image file will be overwritten</string>
+			<key>label</key>
+			<string>Image Suffix</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>img_suffix</string>
+		</dict>
 	</array>
 	<key>variablesdontexport</key>
 	<array/>
 	<key>version</key>
-	<string>1.4.2</string>
+	<string>1.5.0</string>
 	<key>webaddress</key>
 	<string>https://github.com/Acidham/alfred-image-shrinker</string>
 </dict>
