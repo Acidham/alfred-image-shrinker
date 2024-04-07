@@ -87,6 +87,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>1D1D6705-895E-4021-AD45-EE496AE94C7D</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>CAF4B0BB-338B-4891-817E-C038D7308F5D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>4AEF6CC5-7650-44C7-B5B4-1C78F8C452A9</key>
 		<array>
 			<dict>
@@ -167,7 +180,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>72830C6E-65DD-4DDA-B6EE-D53F694677A0</string>
+				<string>D2D105BE-DAE8-4074-B35D-A596D2BD9D3E</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -194,6 +207,19 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>688370B3-92C8-4F3E-9E72-52AC2CA7E02F</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>A84702E9-20B2-4AA0-8AC3-F0E929F7D9ED</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>1AA3EF44-CBEF-42AD-9061-29081050C4E1</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -268,6 +294,54 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>1C3F439F-43C4-4C22-8EE7-40AE2CAE3DF4</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>CAF4B0BB-338B-4891-817E-C038D7308F5D</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>6CC0BC93-2A5D-4C2E-80E1-2F9AB20FCAD1</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>A84702E9-20B2-4AA0-8AC3-F0E929F7D9ED</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>D2D105BE-DAE8-4074-B35D-A596D2BD9D3E</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>1D1D6705-895E-4021-AD45-EE496AE94C7D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>12C218CF-10C2-4C87-AB14-F054BBC009B3</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>72830C6E-65DD-4DDA-B6EE-D53F694677A0</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -469,26 +543,6 @@ python3 ./filecheck.py $argv</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argument</key>
-				<string>{var:fpath}</string>
-				<key>passthroughargument</key>
-				<false/>
-				<key>variables</key>
-				<dict>
-					<key>size</key>
-					<string>{query}</string>
-				</dict>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
-			<key>uid</key>
-			<string>8E04C74A-AFA3-45A5-AB78-FBD21C7699C8</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>delimiter</key>
 				<string>	</string>
 				<key>discardemptyarguments</key>
@@ -510,6 +564,26 @@ python3 ./filecheck.py $argv</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>argument</key>
+				<string>{var:fpath}</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>size</key>
+					<string>{query}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>8E04C74A-AFA3-45A5-AB78-FBD21C7699C8</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>availableviaurlhandler</key>
 				<false/>
 				<key>triggerid</key>
@@ -525,6 +599,48 @@ python3 ./filecheck.py $argv</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>argument</key>
+				<string>'{query}', {variables}</string>
+				<key>cleardebuggertext</key>
+				<false/>
+				<key>processoutputs</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.debug</string>
+			<key>uid</key>
+			<string>6CC0BC93-2A5D-4C2E-80E1-2F9AB20FCAD1</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>query=$1
+
+python3 ./get_source_folder.py $argv</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>5</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>1D1D6705-895E-4021-AD45-EE496AE94C7D</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>openwith</key>
 				<string></string>
 				<key>sourcefile</key>
@@ -536,6 +652,46 @@ python3 ./filecheck.py $argv</string>
 			<string>285567E4-5F6E-49BE-BD82-A2F26130F844</string>
 			<key>version</key>
 			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>tasksettings</key>
+				<dict>
+					<key>overwrite</key>
+					<true/>
+					<key>save_in</key>
+					<string>{var:source_path}</string>
+				</dict>
+				<key>taskuid</key>
+				<string>com.alfredapp.automation.core/image-manipulation/image.format.convert</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.automation.task</string>
+			<key>uid</key>
+			<string>A84702E9-20B2-4AA0-8AC3-F0E929F7D9ED</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{var:fpath}</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>source_path</key>
+					<string>{query}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>CAF4B0BB-338B-4891-817E-C038D7308F5D</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -608,6 +764,38 @@ python3 ./filecheck.py $argv</string>
 			<string>alfred.workflow.utility.conditional</string>
 			<key>uid</key>
 			<string>4AEF6CC5-7650-44C7-B5B4-1C78F8C452A9</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:target_folder}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string></string>
+						<key>outputlabel</key>
+						<string>same folder</string>
+						<key>uid</key>
+						<string>12C218CF-10C2-4C87-AB14-F054BBC009B3</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>copy to target folder</string>
+				<key>hideelse</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>D2D105BE-DAE8-4074-B35D-A596D2BD9D3E</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -757,16 +945,16 @@ Click on `Configure Workflow` to:
 		<key>123A56A7-57C7-46CF-AA37-742E08E483B7</key>
 		<dict>
 			<key>xpos</key>
-			<real>1115</real>
+			<real>1680</real>
 			<key>ypos</key>
-			<real>540</real>
+			<real>595</real>
 		</dict>
 		<key>1AA3EF44-CBEF-42AD-9061-29081050C4E1</key>
 		<dict>
 			<key>xpos</key>
-			<real>205</real>
+			<real>770</real>
 			<key>ypos</key>
-			<real>595</real>
+			<real>650</real>
 		</dict>
 		<key>1C3F439F-43C4-4C22-8EE7-40AE2CAE3DF4</key>
 		<dict>
@@ -775,33 +963,40 @@ Click on `Configure Workflow` to:
 			<key>ypos</key>
 			<real>175</real>
 		</dict>
+		<key>1D1D6705-895E-4021-AD45-EE496AE94C7D</key>
+		<dict>
+			<key>xpos</key>
+			<real>235</real>
+			<key>ypos</key>
+			<real>500</real>
+		</dict>
 		<key>285567E4-5F6E-49BE-BD82-A2F26130F844</key>
 		<dict>
 			<key>xpos</key>
-			<real>1235</real>
+			<real>1860</real>
 			<key>ypos</key>
-			<real>460</real>
+			<real>505</real>
 		</dict>
 		<key>36A94512-C96E-4FE0-91CF-FB93543CB554</key>
 		<dict>
 			<key>xpos</key>
-			<real>1230</real>
+			<real>1795</real>
 			<key>ypos</key>
-			<real>610</real>
+			<real>665</real>
 		</dict>
 		<key>4AEF6CC5-7650-44C7-B5B4-1C78F8C452A9</key>
 		<dict>
 			<key>xpos</key>
-			<real>600</real>
+			<real>1165</real>
 			<key>ypos</key>
-			<real>470</real>
+			<real>525</real>
 		</dict>
 		<key>59585C54-DC87-4454-9D3F-7B24B45CF2A6</key>
 		<dict>
 			<key>xpos</key>
-			<real>635</real>
+			<real>1200</real>
 			<key>ypos</key>
-			<real>715</real>
+			<real>770</real>
 		</dict>
 		<key>60C982A7-83A4-4296-82FD-E9EA656728EA</key>
 		<dict>
@@ -817,12 +1012,21 @@ Click on `Configure Workflow` to:
 			<key>ypos</key>
 			<real>220</real>
 		</dict>
-		<key>72830C6E-65DD-4DDA-B6EE-D53F694677A0</key>
+		<key>6CC0BC93-2A5D-4C2E-80E1-2F9AB20FCAD1</key>
 		<dict>
 			<key>xpos</key>
-			<real>40</real>
+			<real>550</real>
 			<key>ypos</key>
-			<real>595</real>
+			<real>470</real>
+		</dict>
+		<key>72830C6E-65DD-4DDA-B6EE-D53F694677A0</key>
+		<dict>
+			<key>note</key>
+			<string>Copy to target folder</string>
+			<key>xpos</key>
+			<real>605</real>
+			<key>ypos</key>
+			<real>650</real>
 		</dict>
 		<key>8E04C74A-AFA3-45A5-AB78-FBD21C7699C8</key>
 		<dict>
@@ -831,12 +1035,21 @@ Click on `Configure Workflow` to:
 			<key>ypos</key>
 			<real>220</real>
 		</dict>
+		<key>A84702E9-20B2-4AA0-8AC3-F0E929F7D9ED</key>
+		<dict>
+			<key>note</key>
+			<string>Same Folder</string>
+			<key>xpos</key>
+			<real>605</real>
+			<key>ypos</key>
+			<real>510</real>
+		</dict>
 		<key>B8AFDAB2-81C2-4272-A19F-DEAE277D3F7A</key>
 		<dict>
 			<key>xpos</key>
-			<real>380</real>
+			<real>945</real>
 			<key>ypos</key>
-			<real>595</real>
+			<real>650</real>
 		</dict>
 		<key>B8C7AC3E-494B-4E67-87EE-F949A3A7D88A</key>
 		<dict>
@@ -859,6 +1072,20 @@ Click on `Configure Workflow` to:
 			<key>ypos</key>
 			<real>115</real>
 		</dict>
+		<key>CAF4B0BB-338B-4891-817E-C038D7308F5D</key>
+		<dict>
+			<key>xpos</key>
+			<real>415</real>
+			<key>ypos</key>
+			<real>525</real>
+		</dict>
+		<key>D2D105BE-DAE8-4074-B35D-A596D2BD9D3E</key>
+		<dict>
+			<key>xpos</key>
+			<real>30</real>
+			<key>ypos</key>
+			<real>585</real>
+		</dict>
 		<key>DA978B5F-BC27-45BD-BD27-1D8CE610A14B</key>
 		<dict>
 			<key>xpos</key>
@@ -879,16 +1106,37 @@ Click on `Configure Workflow` to:
 				<key>placeholder</key>
 				<string></string>
 				<key>required</key>
-				<true/>
+				<false/>
 			</dict>
 			<key>description</key>
-			<string>Folder for saving shrinked image(s)</string>
+			<string>Folder for saving shrinked image(s). If empty the source path will be used.</string>
 			<key>label</key>
 			<string>Target Folder</string>
 			<key>type</key>
 			<string>filepicker</string>
 			<key>variable</key>
 			<string>target_folder</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string></string>
+				<key>placeholder</key>
+				<string></string>
+				<key>required</key>
+				<false/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>Creates a copy of the image file with SUFFIX.</string>
+			<key>label</key>
+			<string>Image Suffix</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>img_suffix</string>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -928,32 +1176,11 @@ Click on `Configure Workflow` to:
 			<key>variable</key>
 			<string>open_file</string>
 		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>default</key>
-				<string></string>
-				<key>placeholder</key>
-				<string></string>
-				<key>required</key>
-				<false/>
-				<key>trim</key>
-				<true/>
-			</dict>
-			<key>description</key>
-			<string>Creates a copy of the image file with SUFFIX. If left empty the original image file will be overwritten.</string>
-			<key>label</key>
-			<string>Image Suffix</string>
-			<key>type</key>
-			<string>textfield</string>
-			<key>variable</key>
-			<string>img_suffix</string>
-		</dict>
 	</array>
 	<key>variablesdontexport</key>
 	<array/>
 	<key>version</key>
-	<string>1.5.1</string>
+	<string>1.5.2</string>
 	<key>webaddress</key>
 	<string>https://github.com/Acidham/alfred-image-shrinker</string>
 </dict>
