@@ -24,7 +24,7 @@ for f in sys.argv[1::]:
         if os.getenv('img_suffix'):
             path, filename = os.path.split(f)
             basename, extension = os.path.splitext(filename)
-            new_file_name = f"{basename}{os.getenv('img_suffix')}.{extension}"
+            new_file_name = f"{basename}{os.getenv('img_suffix')}{extension}"
             new_file = os.path.join(path, new_file_name)
             shutil.copyfile(f, new_file)
             f = new_file
